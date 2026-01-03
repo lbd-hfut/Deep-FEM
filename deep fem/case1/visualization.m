@@ -5,7 +5,7 @@ y = xy(:, 2);
 % z = xy(:, 3);
 U = getU();
 % U1 = getU1();
-load('u.mat')
+% load('u.mat')
 u_abaqus = U(:, 2:3) * 1;
 % u_abaqus = u;
 % u_abaqus1 = U1(:, 2:4);
